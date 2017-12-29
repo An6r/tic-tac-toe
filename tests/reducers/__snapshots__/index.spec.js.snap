@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducers should describe all application reducers 1`] = `
+Object {
+  "game": [Function],
+}
+`;

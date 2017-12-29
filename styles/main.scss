@@ -1,0 +1,76 @@
+@import "../node_modules/reset-css/reset";
+
+.wrapper {
+	margin: auto;
+	width: 1280px;
+}
+
+.main-title {
+	text-align: center;
+	font-size: 40px;
+	color: #9B42F4;
+}
+
+.title {
+	text-align: center;
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+.grid {
+	width: 900px;
+	margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+	
+	.board-cell {
+		font-size: 60px;
+		width: 295px;
+		height: 295px;
+		border: 1px solid #1F0638;
+		color: #000;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 5px;
+		
+		&:hover {
+			box-shadow: 0 0 21px 0 rgba(153, 146, 160, .3);
+		}
+	}
+	
+	.winner-board-cell {
+		color: #0291E8;
+	}
+}
+
+.current-player {
+	width: 300px;
+	margin: 20px auto;
+	font-size: 30px;
+	text-align: center;
+}
+
+.actions-wrapper {
+	margin: 20px auto;
+	width: 300px;
+	
+	.button {
+		display: block;
+		padding: 15px;
+		font-size: 16px;
+		text-transform: uppercase;
+		background-color: #7407BC;
+		color: #FFFFFF;
+		border: 0;
+		cursor: pointer;
+		min-width: 120px;
+		margin: 0 auto;
+		
+		span {
+			margin-right: 5px;
+		}
+	}
+}

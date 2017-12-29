@@ -1,0 +1,78 @@
+{
+  "name": "tic-tac-toe",
+  "description": "Tic Tac Toe",
+  "version": "0.0.1",
+  "author": {
+    "name": "Maria Prinus",
+    "email": "maryprinus@gmail.com"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.prod.config.js --progress --profile --colors",
+    "lint": "eslint --ext jsx --ext js src",
+    "serve": "webpack-dev-server --config webpack.config.js --progress --profile --colors",
+    "start": "http-server ./dist -p 3000",
+    "test": "jest --coverage -e -b",
+    "test:watch": "jest --coverage --colors -e --watchAll"
+  },
+  "dependencies": {
+    "babel-core": "6.25.0",
+    "babel-eslint": "7.2.3",
+    "babel-jest": "^22.0.4",
+    "babel-loader": "7.1.2",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "classnames": "2.2.5",
+    "clean-webpack-plugin": "^0.1.11",
+    "css-loader": "0.28.7",
+    "enzyme": "^2.7.0",
+    "enzyme-to-json": "^1.4.5",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-import-resolver-webpack": "^0.8.0",
+    "eslint-plugin-import": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.6.0",
+    "extract-text-webpack-plugin": "2.1.2",
+    "html-webpack-plugin": "^2.22.0",
+    "jest": "^22.0.4",
+    "lodash": "^4.17.4",
+    "node-sass": "4.7.2",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.2",
+    "react-addons-test-utils": "^15.4.1",
+    "react-dom": "^15.6.1",
+    "react-fontawesome": "^1.5.0",
+    "react-hot-loader": "^3.1.3",
+    "react-modal-dialog": "^4.0.4",
+    "react-redux": "4.4.2",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.2.1",
+    "redux-persist": "^5.4.0",
+    "redux-thunk": "2.1.0",
+    "reset-css": "^2.2.0",
+    "sass-loader": "6.0.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "./coverage/",
+      "./dist"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "html"
+    ]
+  },
+  "license": "MIT",
+  "main": "dist/index.js"
+}

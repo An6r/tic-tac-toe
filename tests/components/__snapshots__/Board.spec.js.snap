@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Board /> should render 1`] = `
+<ul
+  className="grid"
+>
+  <BoardSpace
+    column={0}
+    getPlayerSymbol={[MockFunction]}
+    handleCellClick={[MockFunction]}
+    index={0}
+    isWinnerMark={[MockFunction]}
+    value={null}
+  />
+  <BoardSpace
+    column={0}
+    getPlayerSymbol={[MockFunction]}
+    handleCellClick={[MockFunction]}
+    index={1}
+    isWinnerMark={[MockFunction]}
+    value={null}
+  />
+  <BoardSpace
+    column={0}
+    getPlayerSymbol={[MockFunction]}
+    handleCellClick={[MockFunction]}
+    index={2}
+    isWinnerMark={[MockFunction]}
+    value={null}
+  />
+  <BoardSpace
+    column={1}
+    getPlayerSymbol={[MockFunction]}
+    handleCellClick={[MockFunction]}
+    index={0}
+    isWinnerMark={[MockFunction]}
+    value={null}
+  />
+  <BoardSpace
+    column={1}
+    getPlayerSymbol={[MockFunction]}
+    handleCellClick={[MockFunction]}
+    index={1}
+    isWinnerMark={[MockFunction]}
+    value={null}
+  />
+  <BoardSpace
+    column={1}
+    getPlayerSymbol={[MockFunction]}
+    handleCellClick={[MockFunction]}
+    index={2}
+    isWinnerMark={[MockFunction]}
+    value={null}
+  />
+  <BoardSpace
+    column={2}
+    getPlayerSymbol={[MockFunction]}
+    handleCellClick={[MockFunction]}
+    index={0}
+    isWinnerMark={[MockFunction]}
+    value={null}
+  />
+  <BoardSpace
+    column={2}
+    getPlayerSymbol={[MockFunction]}
+    handleCellClick={[MockFunction]}
+    index={1}
+    isWinnerMark={[MockFunction]}
+    value={null}
+  />
+  <BoardSpace
+    column={2}
+    getPlayerSymbol={[MockFunction]}
+    handleCellClick={[MockFunction]}
+    index={2}
+    isWinnerMark={[MockFunction]}
+    value={null}
+  />
+</ul>
+`;

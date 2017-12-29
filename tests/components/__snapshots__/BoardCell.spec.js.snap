@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BoardCell /> should render 1`] = `
+<li
+  className="board-cell"
+  onClick={[Function]}
+>
+  <FontAwesome
+    name="times"
+  />
+</li>
+`;
