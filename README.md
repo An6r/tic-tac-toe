@@ -1,9 +1,11 @@
 <h1 align="center">Tic Tac Toe</h1>
 
 ## Installing
-  - With npm:
-  ```sh
-  npm install
+
+With npm:
+```sh
+npm install
+```
   
 ## Running
 
